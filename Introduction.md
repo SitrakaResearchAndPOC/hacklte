@@ -1,1 +1,2 @@
-
+# CREATING ALL FILE FOR THE PREPARATION
+ltehack_backup
