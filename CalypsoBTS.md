@@ -120,6 +120,7 @@ All deb files in : /var/cache/apt/archives/
 ```
 cd src && mkdir nitb && cd nitb
 ```
+
 wget http://ftp.gnu.org/gnu/texinfo/texinfo-4.13.tar.gz 
 ```
 ```
@@ -181,9 +182,9 @@ to make arm-elf-gcc and friends
 cd ../../..
 ```
 Exporting path and addin this on bashrc
-/home/karly/src/gsmkarly/gnuarm/install/bin
+/home/ltehack/src/nitb/gnuarm/install/bin
 ```
-export PATH=$PATH:src/gsmkarly/gnuarm/install/bin
+export PATH=$PATH:src/nitb/gnuarm/install/bin
 ```
 Error 1 if no gnuarm export :  
 /usr/include/newlib/sys/_stdint.h:48:20: error: conflicting types for 'uint32_t'
@@ -216,7 +217,7 @@ cd libosmocore
 git checkout cf70aa0c40c574c32b832454f725cc37459c5d8d
 ```
 ```
-cd .. && zip -r libosmocore_karly.zip libosmocore/ && mv libosmocore_karly.zip ../../Desktop/gsmkarly_backup/
+cd .. && zip -r libosmocore_karly.zip libosmocore/ && mv libosmocore_karly.zip ../../Desktop/ltehack_backup/
 ```
 ```
 cd libosmocore && autoreconf -i 
@@ -274,7 +275,7 @@ cd ../..
 zip -r osmocom-bb_karly4f677.zip osmocom-bb/
 ```
 ```
-mv osmocom-bb_karly4f677.zip ../../Desktop/gsmkarly_backup/
+mv osmocom-bb_karly4f677.zip ../../Desktop/ltehack_backup/
 ```
 ```
 cd osmocom-bb/src 
