@@ -120,7 +120,7 @@ All deb files in : /var/cache/apt/archives/
 ```
 cd src && mkdir nitb && cd nitb
 ```
-
+```
 wget http://ftp.gnu.org/gnu/texinfo/texinfo-4.13.tar.gz 
 ```
 ```
